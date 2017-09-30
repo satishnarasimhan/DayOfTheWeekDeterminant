@@ -1,9 +1,8 @@
 # DayOfTheWeekDeterminant
 Code to determine the day of the week based on dd,mm,yyyy inputs
+The program is based on Zeller's congruence - https://en.wikipedia.org/wiki/Zeller%27s_congruence
+Gregorian calendar is calculated as:
 
-Zeller's cngruence - https://en.wikipedia.org/wiki/Zeller%27s_congruence - is used to determine the day of the week.
-
-The formula for the Gregorian calendar is:
 h = (q + [13(m+1)/5] + K + K/4 + J/4 + 5*J ) mod 7
 where
 h is the day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, ..., 6 = Friday)
