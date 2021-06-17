@@ -1,5 +1,5 @@
-# DayOfTheWeekDeterminant
-Code to determine the day of the week based on dd,mm,yyyy inputs
+# DayOfTheWeekDeterminant - Zeller's Congruence
+Code to determine the day of the week based on dd,mm,yyyy inputs. 
 The program is based on Zeller's congruence - https://en.wikipedia.org/wiki/Zeller%27s_congruence
 Gregorian calendar is calculated as:
 
