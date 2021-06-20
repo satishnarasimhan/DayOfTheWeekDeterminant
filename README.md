@@ -16,8 +16,8 @@ Gregorian calendar is calculated as:
 
 Doomsday rule
 ------------------
-https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#The_%22doomsday%22
-https://en.wikipedia.org/wiki/Doomsday_rule
+> https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#The_%22doomsday%22
+> https://en.wikipedia.org/wiki/Doomsday_rule
 
 Sakamoto's Algorithm
 ------------------------
