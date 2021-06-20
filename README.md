@@ -7,12 +7,17 @@ The program is based on Zeller's congruence - https://en.wikipedia.org/wiki/Zell
 Gregorian calendar is calculated as:
 
 > h = (q + [13(m+1)/5] + K + K/4 + J/4 + 5*J ) mod 7
->
->  where
+
+> where
+
 > h is the day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, ..., 6 = Friday)
+
 > q is the day of the month
+
 > m is the month (3 = March, 4 = April, 5 = May, ..., 14 = February. January, the first month would count as the 13th month of the previous year)
+
 > K is year mod 100
+
 > J is the zero based century. This is determined by floor division i.e. year / 100 and determines the century -19 in 1995, 20 in 2017
 
 Doomsday rule
@@ -23,6 +28,7 @@ Doomsday rule
 Sakamoto's Algorithm
 ------------------------
 > dayofweek(y, m, d)	/* 1 <= m <= 12,  y > 1752 (in the U.K.) */
+
 > {
 >    static int t[] = {0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4};
 >    if ( m < 3 )
