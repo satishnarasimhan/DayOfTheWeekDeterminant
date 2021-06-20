@@ -54,7 +54,8 @@ The knowns:
 4. February will have 28 days for non-leap years. March and February will start on the same day in these years
 5. There are 365 days in a non-leap year
 
-Steps to arrive at the day of the week:
+Steps to arrive at the day of the week:  
+
 Let us consider the first case in which we do not have leap years i.e days = 365. 
 January has 31 days i.e 7*4+3 days so the day on 1st Feb will always be 3 days ahead of the day on 1st January. 
 Now february has 28 days(excluding leap years) which is exact multiple of 7 (7*4=28). March will also start on the same day as February. 
